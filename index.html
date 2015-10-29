@@ -24,15 +24,40 @@
 
 <p>Fast calculating QC20 and QC30 for 2nd-sequencing data</p>
 
+<h2>
+<a id="quick-use" class="anchor" href="#quick-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick use</h2>
+
+<ol>
+<li>Download compiled version: <a href="https://github.com/iGeneTech/SeqQC/blob/master/osx-64/seqQC">osx</a> or <a href="https://github.com/iGeneTech/SeqQC/blob/master/linux-64/seqQC">linux</a>
+</li>
+<li>chmod +x seqQC</li>
+<li>Run <code>./seqQC -c 2 *.gz</code>
+</li>
+</ol>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
 <div class="highlight highlight-source-shell"><pre>Usage: seqQC -c 8 <span class="pl-k">*</span>.gz
 
   -c int
         Number of CPU/Core to use. (default 1)
 </pre></div>
 
-<p>Note: this code doesn't check the legality of the file format.</p>
+<h2>
+<a id="compile" class="anchor" href="#compile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile</h2>
 
-<p>Copyright 2015, iGeneTech Biotech Co., Ltd.</p>
+<ol>
+<li>Install golang: <a href="https://golang.org/doc/install">https://golang.org/doc/install</a>
+</li>
+<li><code>git clone https://github.com/iGeneTech/SeqQC.git</code></li>
+<li><code>go build seqQC.go</code></li>
+</ol>
+
+<h2>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span class="octicon octicon-link"></span></a>Note</h2>
+
+<p>This code doesn't check the legality of the file format.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/iGeneTech/SeqQC">SeqQC</a> is maintained by <a href="https://github.com/iGeneTech">iGeneTech</a>.</span>
