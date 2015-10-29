@@ -10,4 +10,4 @@ Usage: seqQC -c 8 *.gz
 ```
 
 
-**Note: this code doesn't check the legality of the file format.**
+Note: this code doesn't check the legality of the file format.
