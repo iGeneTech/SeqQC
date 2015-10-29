@@ -4,7 +4,7 @@ Fast calculating QC20 and QC30 for 2nd-sequencing data
 
 ## Quick use
 
-1. Download compiled version [osx/linux]
+1. Download compiled version: [osx](https://github.com/iGeneTech/SeqQC/blob/master/osx-64/seqQC] or [linux https://github.com/iGeneTech/SeqQC/blob/master/linux-64/seqQC]
 2. chmod +x seqQC
 3. Run `./seqQC -c 2 *.gz`
 
