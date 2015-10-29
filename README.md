@@ -1,6 +1,15 @@
 # SeqQC
 Fast calculating QC20 and QC30 for 2nd-sequencing data
 
+
+## Quick use
+
+1. Download compiled version [osx/linux]
+2. chmod +x seqQC
+3. Run `./seqQC -c 2 *.gz`
+
+## Usage
+
 ```bash
 Usage: seqQC -c 8 *.gz
 
@@ -9,5 +18,12 @@ Usage: seqQC -c 8 *.gz
 
 ```
 
+## Compile
 
-Note: this code doesn't check the legality of the file format.
+1. Install golang: https://golang.org/doc/install
+2. `git clone https://github.com/iGeneTech/SeqQC.git`
+3. `go build seqQC.go`
+
+## Note
+
+This code doesn't check the legality of the file format.
