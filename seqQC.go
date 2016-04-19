@@ -81,11 +81,11 @@ func Worker(jobs <-chan string, results chan<- ResultData) {
 
 			for i := 0; i < lineSize; i++ {
 				qc := int(line[i]) - 33
-				if qc > 20 {
+				if qc >= 20 {
 					qc20++
 				}
 
-				if qc > 30 {
+				if qc >= 30 {
 					qc30++
 				}
 			}
